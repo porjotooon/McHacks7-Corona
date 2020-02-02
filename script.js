@@ -27,9 +27,10 @@ var letter = '';
 
 
 
-/*
-var url = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?begin_date=20200101&end_date=20200201&q=Coronavirus&sort=newest&api-key=GEJmtGjWIOZ8X3EIbTfAlaTunOY13Bzi'
 
+//var url = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?begin_date=20200101&end_date=20200201&q=Coronavirus&sort=newest&api-key=GEJmtGjWIOZ8X3EIbTfAlaTunOY13Bzi'
+
+/*
 function setup() {
     noCanvas();
     loadJSON(url, gotData);

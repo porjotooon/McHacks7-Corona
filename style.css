@@ -20,7 +20,7 @@
 
 
 body {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .75);
     background-blend-mode: multiply;
     background-image: url('jack-b-A1EUK5S7g_g-unsplash.jpg');
     background-repeat: no-repeat;
@@ -69,6 +69,7 @@ header img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .head {
@@ -84,7 +85,7 @@ header img {
 
 
 .typing::after {
-    content: "";
+    content: " ";
     right: -5px;
     width: 1px;
     height: 4%;

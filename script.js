@@ -1,8 +1,8 @@
-const texts = ['Coronavirus']
-let count = 0;
-let index = 0;
-let currentText = '';
-let letter = '';
+var texts = ['Coronavirus']
+var count = 0;
+var index = 0;
+var currentText = '';
+var letter = '';
 
 (function type() {
 
@@ -27,7 +27,7 @@ let letter = '';
 
 
 
-
+/*
 var url = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?begin_date=20200101&end_date=20200201&q=Coronavirus&sort=newest&api-key=GEJmtGjWIOZ8X3EIbTfAlaTunOY13Bzi'
 
 function setup() {
@@ -79,3 +79,4 @@ var createArrayData = (function () {
     })
 
 }());
+*/

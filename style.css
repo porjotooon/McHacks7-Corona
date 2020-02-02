@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+
+@font-face{
+    font-family: PopLight;
+    src: url('/fonts/Poppins-Light.ttf');
+}
+
+@font-face{
+    font-family: PopMedium;
+    src: url('/fonts/Poppins-Medium.ttf');
+}
+
+@font-face{
+    font-family: PopRegular;
+    src: url('/fonts/Poppins-Regular.ttf');
+}
+
+
+body {
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: multiply;
+    background-image: url('jack-b-A1EUK5S7g_g-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: PopLight;
+    margin: 0;
+    padding: 0;
+}
+
+p,h1 {
+    color: aliceblue;
+}
+
+.header {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    
+    
+    
+}
+
+header img {
+    margin-bottom: 0px;
+}
+
+
+
+.searchers {
+    margin-top: 100px;
+    
+}
+
+.div {
+    margin-bottom: 100px;
+}
+
+.intro {
+    display: flex;
+    color: white;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.head {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+        
+}
+
+
+
+.typing::after {
+    content: "";
+    right: -5px;
+    width: 1px;
+    height: 4%;
+    border-right: 2px solid white;
+    animation:
+     blink 0.5s step-end infinite ease;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

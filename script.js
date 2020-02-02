@@ -17,7 +17,7 @@ let letter = '';
     document.querySelector('.typing').textContent = letter;
     if (letter.length === currentText.length) {
         count++;
-        index = 0;
+        //index = 0;
 
     }
     setTimeout(type, 200);
